@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Assets/network.png" type="image/x-icon">
+    <title>Signy | Contact</title>
+</head>
+<body>
+    <div>
+        <header>
+            <img src="./logo.jpeg" alt="logo">
+            <nav>
+                <a href="./index.html"><p>Home</p></a> 
+                <a href="./produkts.html"><p>Produkts</p></a>
+                <a href="./contact.html"><p>Contact</p></a>
+                <a href="./about.html"><p>About</p></a>
+            </nav>
+            <div id="nav-buttons">
+                <i class="bi bi-search"></i>
+                <i class="bi bi-cart"></i>
+                <i class="bi bi-person"></i>
+            </div>
+        </header>
+    </div>
+    <main id="mainForm">
+            
+            <form id="formSection"
+            action="https://formsubmit.co/guilherme.almeida@aluno.humboldt.com.br"
+            method="POST"
+            class="form"
+        >
+            <img src="./Assets/Email.png" alt="imagem of email">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required />
+            <label for="message">Nachricht</label>
+            <textarea name="message" id="message" required></textarea>
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+            type="hidden"
+            name="_next"
+            value="https://signycompany.netlify.app/congratulation.html"
+            />
+            <button type="submit">Sende</button>
+        </form>
+    </main>
+</body>
+</html>

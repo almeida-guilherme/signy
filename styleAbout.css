@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    
+}
+
+
+#uberProduct{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #407BFF;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 6px #0000001c
+}
+
+#uberHeader{
+    gap: 0px;
+    font-weight: 900;
+    color: #454655;
+    margin-left:20px;
+    font-style: italic;
+}
+
+#uberH1{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    font-style: normal;
+}
+
+#ubercardInhalt{
+    display: flex;
+}
+
+#ubercardHeader{
+    display: flex;
+    margin-left: 15px;
+    gap: 10px;
+    margin-left:20px;
+    font-size: 37px;
+    font-weight: 900;
+    color: #454655;
+}
+
+#ubercardInfo{
+    margin-left: 5px;
+    gap: 1px;
+    width: 700px;
+    font-size: 20px;
+    margin-left:60px;
+    color: white;
+}
+
+#ubercardImg,#ubercardText{
+    width: 50%;
+    height: 50%;
+}
+
+#ubercardImg img {
+    width: 11.69vw;
+}

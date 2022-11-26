@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    
+}
+
+body{
+    background-color: #EDE4E0;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EDE4E0;
+    background-color: white;
+    
+}
+
+header img{
+    width: 8%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+header nav {
+    width: 35.8%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    cursor: pointer;
+    transition: color 1s;
+}
+
+header nav :hover{
+    color: #EDE4E0;
+}
+
+
+#nav-buttons{
+    width: 35.8%;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 50px;
+}
+
+
+.productInfo,#productInfoEstatics{
+    width: 100%;
+    height: 90vh;
+    margin-top: 30px;
+    display: flex;
+}
+
+.productDisc{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 6px #0000001c
+}
+
+.productDiscIcon {
+    display: flex;
+    gap: 10px;
+}
+
+.productDiscIcon p{
+    margin-top: 10px;
+}
+
+#productDiscSecond{
+    display: flex;
+    width: 50%;
+    height: 90vh;
+    background-color: #407BFF;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#productDiscSecondImgAndVideo{
+    display: flex;
+}
+
+#productDiscSecondVideo{
+    width: 40vw;
+    margin-top: 100px;
+}
+
+#productDiscSecondImg{
+    display: flex;
+    width: 5vw;
+    height: 7vh;
+    margin-top: 10px;
+}
+
+#productDiscSecondText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40vw;
+    padding: 40px;
+    font-size: 1.7vh;
+    margin-left: 3vw;
+    font-weight: 800;
+    color: #FFFF;
+}
+
+#productInfoEstatics{
+    background-color: white;
+    height: 30vh;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 6px #0000001c
+}
+
+#productInfoEstatics div {
+    border-right: 1px solid #EDE4E0;
+    padding-right: 100px;
+}
+
+.statisticAbout{
+    display: flex;
+    justify-content: center;
+    color: #407BFF;
+}
+
+
+
+.productInfo #app #appH1{
+    font-weight: 900;
+    font-size: 55px;
+    color: #407BFF;
+}
+
+#appInfomation{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+
+.productInfo #app i{
+    font-weight: 900;
+    color: grey;
+}
+
+.productInfo #app #appInformationInhaltdiv{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.productInfo #app #appInformationInhaltdiv .appInformationInhalt{
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    background-color: #665A48;
+    height: 10%;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+}
+
+/* contact page and Congratulations page*/
+
+#mainForm,#maincongrats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#mainForm img{
+    width: 70%;
+}
+
+#maincongrats img{
+    width: 16vw;
+}
+
+#mainForm button, #maincongrats button{
+    text-decoration: none;
+    background-color: #407BFF;
+    color: white;
+    border: none;
+    margin-left: 2px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px #0000001c
+}
+
+#maincongrats p {
+    font-size:3vw;
+    font-weight: 800;
+}
+
+#formSection,#mainSection{
+    background-color: white;
+    color: #407BFF;
+    border-radius: 20px;
+    height: 70vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    box-shadow: 1px 1px 6px #0000001c
+
+}
+
+.prognose{
+    font-weight: 800;
+    margin-top: 2vw;
+    background-color: white;
+    padding: 20px;
+    color:#407BFF ;
+}
+
+
+footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #EDE4E0;
+    background-color: white;
+    height: 10vh;
+}
+
+/* Responsibidade */
+
+@media screen and (max-width: 720px) and (max-height:1480px) {    
+    #nav-buttons,header img{
+        display: none;
+    }    
+
+    header nav {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #carouselExampleIndicators{
+        display: none;
+    }
+
+    .productInfo{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .productDisc{
+        width: 100%;
+        order: 1;
+        display: flex;
+    }
+    #productDiscSecond{
+        width: 100%;
+        order: 0;
+    }
+    .productDisc img{
+        height: 40vh;
+        width: 50vw;
+    }
+
+}
+
+@media screen and (max-width: 768px) and (max-height:1360px) {    
+    #appInformationInhaltdiv{
+        font-size: 10px;
+    }
+
+}
